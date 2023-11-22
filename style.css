@@ -1,0 +1,150 @@
+/*Index (starter page)*/
+#IndexWebTitel{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.row{
+    display: grid;
+    justify-content: center;
+    font-family: cursive;
+    padding-top: 3rem;
+}
+
+.middleBlocksIndex{
+
+}
+.middleBlocksIndex li {
+    list-style-type: none; /*nichts vor dem Text anzeigen*/
+    margin-bottom: 1rem; /*Abstand zur linker Seite und den Block*/
+    background-color: lightgray; /*Hintergrunds Farbe*/
+    padding: 2rem; /*Abstand um den Content runter rum*/
+    font-size: 1.2rem; /*Schrift größe*/
+    border-radius: 1rem; /*Rundet die Seiten von den Blöcken*/
+    text-align: center; /*Macht den Text in den Blöcken Mittig*/
+
+}
+.middleBlocksIndex a {
+    color: black; /*Schriftfarbe schwarz*/
+    text-decoration: none; /*nichts unter dem Text anzeigen*/
+}
+.middleBlocksIndex li:hover {
+    background-color: lightslategray;
+    transition: all 0.5s; /*übergang dauer*/
+    transform: scale(1.2); /* Zoomt den Block um die gegebene Prozent Anzahl*/
+    text-align: center;/*Center die Schrift wenn man Zoomt*/
+
+
+    box-shadow: 11px 36px 65px 15px rgba(0,0,0,0.72);   /*Box Shadow*/
+    -webkit-box-shadow: 11px 36px 65px 15px rgba(0,0,0,0.72); /*Box Shadow*/
+    -moz-box-shadow: 11px 36px 65px 15px rgba(0,0,0,0.72); /*Box Shadow*/
+}
+
+
+/*World Wide Web*/
+.bodyWWW {
+    margin: 1rem;
+}
+
+.headerWWW {
+    overflow: hidden;
+    background-color: lightgrey;
+
+    box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    border-radius: 1rem;
+}
+.headerWWW a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: lightgrey;
+    color: black;
+    margin-left: 50rem;
+    border-radius: 1rem;
+}
+.headerWWW a:hover {
+    background-color: darkgray;
+
+    transform: scale(1.2); /* Zoomt den Block um die gegebene Prozent Anzahl*/
+    text-align: center;/*Center die Schrift wenn man Zoomt*/
+}
+
+.ContentWWW{
+    background-color: white;
+    padding-inline: 20rem;
+
+    #wwwContentTitle{
+        text-align: center;
+        background-color: lightgrey;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+
+        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    }
+    .worldWideWeb{
+        background-color: white;
+        text-align: center;
+    }
+
+
+    #webServerTitle{
+        text-align: center;
+        background-color: lightgrey;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+
+        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    }
+    .webServer{
+        background-color: white;
+        text-align: center;
+    }
+
+
+    #webClientTitle{
+        text-align: center;
+        background-color: lightgrey;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+
+        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    }
+    .webClient{
+        background-color: white;
+        text-align: center;
+    }
+
+
+    #helloWorldTitle{
+        text-align: center;
+        background-color: lightgrey;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-radius: 2rem;
+
+        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    }
+    .helloWorld{
+        background-color: white;
+        text-align: center;
+    }
+}
+
+
+
+/*Html*/

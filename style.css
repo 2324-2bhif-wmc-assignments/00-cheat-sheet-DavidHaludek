@@ -1,30 +1,52 @@
 /*Index (starter page)*/
+
+/*animation starter page*/
+@keyframes BackgroundColorBlackToWhite {
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color: white;
+    }
+}
+@keyframes TextColorWhiteToBlack {
+    0%{
+        color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+
+.bodyIndex{
+    animation: BackgroundColorBlackToWhite 5s ease-in-out forwards;
+}
 #IndexWebTitel{
+    animation: TextColorWhiteToBlack 5s ease-in-out forwards;
     text-align: center;
     font-size: 3rem;
 }
 
 .row{
+
+}
+
+.middleBlocksIndex{
     display: grid;
     justify-content: center;
     font-family: cursive;
     padding-top: 3rem;
-}
-
-.middleBlocksIndex{
-
 }
 .middleBlocksIndex li {
     list-style-type: none; /*nichts vor dem Text anzeigen*/
     margin-bottom: 1rem; /*Abstand zur linker Seite und den Block*/
     background-color: lightgray; /*Hintergrunds Farbe*/
     padding: 2rem; /*Abstand um den Content runter rum*/
-    font-size: 1.2rem; /*Schrift größe*/
     border-radius: 1rem; /*Rundet die Seiten von den Blöcken*/
     text-align: center; /*Macht den Text in den Blöcken Mittig*/
-
 }
 .middleBlocksIndex a {
+    font-size: 1.2rem; /*Schrift größe*/
     color: black; /*Schriftfarbe schwarz*/
     text-decoration: none; /*nichts unter dem Text anzeigen*/
 }
@@ -44,11 +66,16 @@
 /*World Wide Web*/
 .bodyWWW {
     margin: 1rem;
+    font-family: "Google Sans", arial, sans-serif;
 }
+
+
 
 .headerWWW {
     overflow: hidden;
+    display: flex;
     background-color: lightgrey;
+    justify-content: center;
 
     box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
     -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
@@ -63,7 +90,6 @@
     font-size: 17px;
     background-color: lightgrey;
     color: black;
-    margin-left: 50rem;
     border-radius: 1rem;
 }
 .headerWWW a:hover {
@@ -73,78 +99,62 @@
     text-align: center;/*Center die Schrift wenn man Zoomt*/
 }
 
-.ContentWWW{
+.ContentBox{
     background-color: white;
-    padding-inline: 20rem;
+    padding-inline: 20%;
 
-    #wwwContentTitle{
-        text-align: center;
-        background-color: lightgrey;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 2rem;
-
-        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-    }
     .worldWideWeb{
         background-color: white;
         text-align: center;
+
+        font-size: 1.1rem;
     }
 
-
-    #webServerTitle{
-        text-align: center;
-        background-color: lightgrey;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 2rem;
-
-        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-    }
     .webServer{
         background-color: white;
         text-align: center;
+
+        font-size: 1.1rem;
     }
 
-
-    #webClientTitle{
-        text-align: center;
-        background-color: lightgrey;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 2rem;
-
-        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-    }
     .webClient{
         background-color: white;
         text-align: center;
+
+        font-size: 1.1rem;
     }
 
-
-    #helloWorldTitle{
-        text-align: center;
-        background-color: lightgrey;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        border-radius: 2rem;
-
-        box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-        -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
-    }
     .helloWorld{
         background-color: white;
         text-align: center;
+
+        font-size: 1.1rem;
     }
+}
+
+.contentTitle {
+    text-align: center;
+    background-color: lightgrey;
+    font-family: cursive;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+
+    margin-left: 30%;
+    margin-right: 30%;
+
+    box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
+    -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
 }
 
 
 
 /*Html*/
+
+/*Css*/
+

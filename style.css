@@ -1,12 +1,12 @@
 /*Index (starter page)*/
-
 /*animation starter page*/
+
 @keyframes BackgroundColorBlackToWhite {
     0%{
         background-color: black;
     }
     100%{
-        background-color: white;
+        background-color: #bbb2b2;
     }
 }
 @keyframes TextColorWhiteToBlack {
@@ -24,34 +24,37 @@
 #IndexWebTitel{
     animation: TextColorWhiteToBlack 5s ease-in-out forwards;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .row{
-
+    width: 100%;
 }
 
 .middleBlocksIndex{
     display: grid;
     justify-content: center;
     font-family: cursive;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 .middleBlocksIndex li {
     list-style-type: none; /*nichts vor dem Text anzeigen*/
-    margin-bottom: 1rem; /*Abstand zur linker Seite und den Block*/
+}
+.middleBlocksIndex div{
+    margin-bottom: 1.5rem; /*Abstand zur linker Seite und den Block*/
     background-color: lightgray; /*Hintergrunds Farbe*/
-    padding: 2rem; /*Abstand um den Content runter rum*/
+    padding: 3rem; /*Abstand um den Content runter rum*/
     border-radius: 1rem; /*Rundet die Seiten von den Blöcken*/
     text-align: center; /*Macht den Text in den Blöcken Mittig*/
 }
 .middleBlocksIndex a {
-    font-size: 1.2rem; /*Schrift größe*/
+    font-size: 1.5rem; /*Schrift größe*/
     color: black; /*Schriftfarbe schwarz*/
     text-decoration: none; /*nichts unter dem Text anzeigen*/
 }
 .middleBlocksIndex li:hover {
-    background-color: lightslategray;
+
+    border-radius: 10rem;
     transition: all 0.5s; /*übergang dauer*/
     transform: scale(1.2); /* Zoomt den Block um die gegebene Prozent Anzahl*/
     text-align: center;/*Center die Schrift wenn man Zoomt*/
@@ -62,19 +65,16 @@
     -moz-box-shadow: 11px 36px 65px 15px rgba(0,0,0,0.72); /*Box Shadow*/
 }
 
-
 /*World Wide Web*/
 .bodyWWW {
     margin: 1rem;
     font-family: "Google Sans", arial, sans-serif;
 }
 
-
-
-.headerWWW {
+.HeaderHomeButton {
     overflow: hidden;
     display: flex;
-    background-color: lightgrey;
+    background-color: #ab9e9e;
     justify-content: center;
 
     box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
@@ -82,17 +82,17 @@
     -moz-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
     border-radius: 1rem;
 }
-.headerWWW a {
+.HeaderHomeButton a {
     float: left;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: lightgrey;
+    background-color: #ab9e9e;
     color: black;
     border-radius: 1rem;
 }
-.headerWWW a:hover {
+.HeaderHomeButton a:hover {
     background-color: darkgray;
 
     transform: scale(1.2); /* Zoomt den Block um die gegebene Prozent Anzahl*/
@@ -131,10 +131,9 @@
         font-size: 1.1rem;
     }
 }
-
 .contentTitle {
     text-align: center;
-    background-color: lightgrey;
+    background-color: #ab9e9e;
     font-family: cursive;
 
     padding-left: 2rem;
@@ -156,5 +155,65 @@
 
 /*Html*/
 
+
+.bodyHtml{
+    margin-top: 1rem;
+}
+
+.ContentBox{
+
+    .componentsHtml{
+        padding: 10%;
+        margin-inline: 35%;
+        background-color: #ab9e9e;
+        text-align: center;
+
+        font-size: 1.1rem;
+    }
+
+
+    .voidElementsHtml{
+        padding: 5%;
+        margin-inline: 35%;
+        background-color: #ab9e9e;
+        text-align: center;
+
+        font-size: 1.1rem;
+    }
+
+
+    .attributesHtml{
+        padding: 5%;
+        margin-inline: 35%;
+        background-color: #ab9e9e;
+        text-align: center;
+
+        font-size: 1.1rem;
+    }
+
+
+    .declerationHtml{
+        padding: 5%;
+        margin-inline: 35%;
+        background-color: #ab9e9e;
+        text-align: center;
+
+        font-size: 1.1rem;
+    }
+
+
+    .correctStatementsHtml{
+        padding: 10%;
+        background-color: #ab9e9e;
+        margin-inline: 15rem;
+        text-align: center;
+
+        font-size: 1.1rem;
+    }
+}
+
+
 /*Css*/
+
+
 

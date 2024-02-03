@@ -4,111 +4,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
 
-        <style>
-            .ContentBox{
-                .cssPropertyCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .combinatorsProperlyCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .colorsHexadecimalCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .colorDeclarationCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .pseudoClassesCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .backgroundImageCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .textAlignmentCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .textDecorationCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-                .textTransformationCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .serifAndSansSerifFondsCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .fontsFamiliesCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .fontStyleCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .fontSizeCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-
-                .fontWeightCss{
-                    background-color: white;
-                    text-align: center;
-
-                    font-size: 1.1rem;
-                }
-            }
-        </style>
-
-
     </head>
 
-    <body>
+    <body class="bodyCss">
 
         <div class="HeaderHomeButton">
             <a href="index.html">HOME</a>
@@ -122,11 +20,11 @@
 
         <div class="ContentBox">
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Properly</h1>
             <br>
             <br>
             <div class="cssPropertyCss">
-                <img src="cssDecla.png">
+                <img src="cssDecla.png" alt="declaration">
             </div>
             <br>
             <br>
@@ -134,49 +32,37 @@
 
 
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Selectors</h1>
             <br>
             <br>
             <div class="combinatorsProperlyCss">
-                <p>
-                    - descendant selector (space)
-                    <br>
-                    - child selector (>)
-                    <br>
-                    - adjacent sibling selector (+)
-                    <br>
-                    - general sibling selector (~)
-                    <br>
-                    <br>
-                    <br>
-                    div p {
-                    <br>
-                    background-color: yellow;
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    div > p {
-                    <br>
-                    background-color: yellow;
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    div + p {
-                    <br>
-                    background-color: yellow;
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    div ~ p {
-                    <br>
-                    background-color: yellow;
-                    <br>
-                    }
-                    <br>
-                </p>
+                <pre>
+                    <code>
+                        - descendant selector (space)
+                        - child selector (>)
+                        - adjacent sibling selector (+)
+                        - general sibling selector (~)
+
+
+
+                        div p {
+                            background-color: yellow;
+                        }
+
+                        div > p {
+                            background-color: yellow;
+                        }
+
+                        div + p {
+                            background-color: yellow;
+                        }
+
+                        div ~ p {
+                            background-color: yellow;
+                        }
+
+                    </code>
+                </pre>
             </div>
             <br>
             <br>
@@ -184,26 +70,21 @@
 
 
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Colors</h1>
             <br>
             <br>
             <div class="colorsHexadecimalCss">
-                <p>
-                    #FF0000: Red
-                    <br>
-                    #0000FF: Blue
-                    <br>
-                    #00FF00: Green
-                    <br>
-                    #FFFF00: Yellow
-                    <br>
-                    #800080: Purple
-                    <br>
-                    #000000: Black
-                    <br>
-                    #FFFFFF: White
-                    <br>
-                </p>
+                <pre>
+                    <code>
+                            #FF0000: Red
+                            #0000FF: Blue
+                            #00FF00: Green
+                            #FFFF00: Yellow
+                            #800080: Purple
+                            #000000: Black
+                            #FFFFFF: White
+                    </code>
+                </pre>
             </div>
             <br>
             <br>
@@ -211,172 +92,271 @@
 
 
 
-            <h1 class="contentTitle">hallo</h1>
+
+            <h1 class="contentTitle">Color & backgroundcolor</h1>
             <br>
             <br>
             <div class="colorDeclarationCss">
-                <p>
-                    /* Setting text color */
-                    <br>
-                    <br>
-                    .text {
-                    <br>
-                    color: red; /* Using color name */
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    .text {
-                    <br>
-                    color: #FF5733; /* Using hexadecimal notation */
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    /* Setting background color */
-                    <br>
-                    <br>
-                    .background {
-                    <br>
-                    background-color: blue; /* Using color name */
-                    <br>
-                    }
-                    <br>
-                    <br>
-                    .background {
-                    <br>
-                    background-color: #3498db; /* Using hexadecimal notation */
-                    <br>
-                    }
-                    <br>
-                </p>
+                <pre>
+                    <code>
+            /* Setting text color */
+
+            .text {
+                color: red; /* Using color name */
+            }
+
+            .text {
+                color: #FF5733; /* Using hexadecimal notation */
+            }
+
+            /* Setting background color */
+
+            .background {
+                background-color: blue; /* Using color name */
+            }
+
+            .background {
+                background-color: #3498db; /* Using hexadecimal notation */
+            }
+                        </code>
+                </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Pseudo classes</h1>
             <br>
             <br>
             <div class="pseudoClassesCss">
-                <code>
-                    <pre>
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
+                <pre>
+                    <code>
 
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
+                    a:link {
+                      color: green;
+                      background-color: transparent;
+                      text-decoration: none;
+                    }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
+                    a:visited {
+                      color: pink;
+                      background-color: transparent;
+                      text-decoration: none;
+                    }
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
+                    a:hover {
+                      color: red;
+                      background-color: transparent;
+                      text-decoration: underline;
+                    }
 
+                    a:active {
+                      color: yellow;
+                      background-color: transparent;
+                      text-decoration: underline;
+                    }
+                        </code>
                     </pre>
-                </code>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Background-image</h1>
             <br>
             <br>
             <div class="backgroundImageCss">
+                <pre>
+                        <code>
+                div {
+                background-image: url('img_girl.jpg');
+                }
+                        </code>
+                </pre>
 
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Text-alignment </h1>
             <br>
             <br>
-            <div class="textAlignmentCss">
+            <div class="textAlignmentCss" >
+                <pre>
+                    <code>
+                        h1 {
+                            text-align: center;
+                        }
 
+                        h2 {
+                            text-align: left;
+                        }
+
+                        h3 {
+                            text-align: right;
+                        }
+                        div {
+                            text-align: justify;
+                        }
+                    </code>
+                </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Text decoration</h1>
             <br>
             <br>
             <div class="textDecorationCss">
+            <pre>
+                <code>
 
+                    h1 {
+                      text-decoration: none;
+                    }
+
+                    h2 {
+                      text-decoration: overline;
+                    }
+
+                    h3 {
+                      text-decoration: line-through;
+                    }
+
+                    h4 {
+                      text-decoration: underline;
+                    }
+
+                </code>
+            </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Text transformation</h1>
             <br>
             <br>
             <div class="textTransformationCss">
+            <pre>
+                <code>
+                    p.uppercase {
+                      text-transform: uppercase;
+                    }
 
+                    p.lowercase {
+                      text-transform: lowercase;
+                    }
+
+                    p.capitalize {
+                      text-transform: capitalize;
+                    }
+
+                </code>
+            </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Serif and sans-serif fonts</h1>
             <br>
             <br>
             <div class="serifAndSansSerifFondsCss">
+    <pre>
+        <code>
+            Serif fonts have a small stroke at the edges of each letter. <br>
+            They create a sense of formality and elegance.<br>
+            Sans-serif fonts have clean lines (no small strokes attached). <br>
+            They create a modern and minimalistic look.
+            <br>
 
+            <img src="SansSerifAndSerif.png" alt="SansSerifAndSerif">
+        </code>
+    </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Font-families</h1>
             <br>
             <br>
             <div class="fontsFamiliesCss">
-
+    <pre>
+        <code>
+            .p1 {
+              font-family: "Times New Roman", Times, serif;
+            }
+        </code>
+    </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Font-style</h1>
             <br>
             <br>
             <div class="fontStyleCss">
+                <pre>
+                    <code>
+                        p.normal {
+                          font-style: normal;
+                        }
 
+                        p.italic {
+                          font-style: italic;
+                        }
+                    </code>
+                </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Font-size</h1>
             <br>
             <br>
             <div class="fontSizeCss">
+            <pre>
+                <code>
+                    h1 {
+                      font-size: 40px;
+                    }
 
+                    h1 {
+                      font-size: 2.5em; /* 40px/16=2.5em */
+                    }
+
+                    body {
+                      font-size: 100%;
+                    }
+
+                </code>
+            </pre>
             </div>
             <br>
             <br>
             <br>
 
-            <h1 class="contentTitle">hallo</h1>
+            <h1 class="contentTitle">Font-weight</h1>
             <br>
             <br>
             <div class="fontWeightCss">
+                <pre>
+                    <code>
+                        p.normal {
+                          font-weight: normal;
+                        }
 
+                        p.thick {
+                          font-weight: bold;
+                        }
+                    </code>
+                </pre>
             </div>
             <br>
             <br>

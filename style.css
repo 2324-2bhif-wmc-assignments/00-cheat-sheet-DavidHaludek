@@ -67,6 +67,7 @@
 
 /*World Wide Web*/
 .bodyWWW {
+    background-color: #534b4b;
     margin: 1rem;
     font-family: "Google Sans", arial, sans-serif;
 }
@@ -99,33 +100,34 @@
     text-align: center;/*Center die Schrift wenn man Zoomt*/
 }
 
+
 .ContentBox{
+
+    & button {
+        background-color: #ab9e9e;
+    }
+
     background-color: white;
     padding-inline: 20%;
 
     .worldWideWeb{
-        background-color: white;
         text-align: center;
-
         font-size: 1.1rem;
     }
 
     .webServer{
-        background-color: white;
         text-align: center;
 
         font-size: 1.1rem;
     }
 
     .webClient{
-        background-color: white;
         text-align: center;
 
         font-size: 1.1rem;
     }
 
     .helloWorld{
-        background-color: white;
         text-align: center;
 
         font-size: 1.1rem;
@@ -215,5 +217,109 @@
 
 /*Css*/
 
+.bodyCss{
+    background-color: #534b4b;
+}
 
+.ContentBox{
+    background-color: #534b4b;
 
+    .cssPropertyCss{
+        background-color: #ab9e9e;
+        text-align: center;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .combinatorsProperlyCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .colorsHexadecimalCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .colorDeclarationCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .pseudoClassesCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .backgroundImageCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .textAlignmentCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .textDecorationCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+    .textTransformationCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .serifAndSansSerifFondsCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .fontsFamiliesCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .fontStyleCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .fontSizeCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+    .fontWeightCss{
+        background-color: #ab9e9e;
+        margin-inline: 10%;
+
+        font-size: 1.1rem;
+    }
+
+}

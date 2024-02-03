@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CheatSheet</title>
+    <title>Html</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bodyHtml" style="background-color: #534b4b">
@@ -69,131 +69,189 @@
         <br>
         <br>
         <div class="declerationHtml">
-            <code>
-                    <p>&lt!DOCTYPE html></p>
-            </code>
+
+            <p>&lt!DOCTYPE html></p>
         </div>
         <br>
         <br>
         <br>
 
+        <h1 class="contentTitle">Lists</h1>
+        <br>
+        <br>
+            <div class="listsHtml">
+                <p>
+                    There are 3 kinds of lists:
+                </p>
+                <ul>
+                    <li>Unordered list</li>
+                    <li>Ordered list</li>
+                    <li>Description  list</li>
+                </ul>
+                <hr>
+                <p>Code :</p>
+                <br>
+                <pre>
+                    <code>
+        &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;ol&gt;
+            &lt;li&gt;First Item&lt;/li&gt;
+            &lt;li&gt;Second Item&lt;/li&gt;
+            &lt;li&gt;Third Item&lt;/li&gt;
+        &lt;/ol&gt;
+
+        &lt;dl&gt;
+            &lt;dt&gt;Term 1&lt;/dt&gt;
+            &lt;dd&gt;Description for Term 1&lt;/dd&gt;
+            &lt;dt&gt;Term 2&lt;/dt&gt;
+            &lt;dd&gt;Description for Term 2&lt;/dd&gt;
+            &lt;dt&gt;Term 3&lt;/dt&gt;
+            &lt;dd&gt;Description for Term 3&lt;/dd&gt;
+        &lt;/dl&gt;
+
+                    </code>
+                </pre>
+            </div>
+        <br>
+        <br>
+        <br>
+
+
+        <h1 class="contentTitle">Table</h1>
+        <br>
+        <br>
+            <div class="tablesHtml">
+                <pre>
+                    <code>
+Here is the general structure of a table:
+
+  Table Header 1	      Table Header 2	      Table Header 3
+Table cell 1	        Table cell 2	        Table cell 3
+Table footer cell 1     Table footer cell 2	    Table footer cell 3
+Source code:
+<hr>
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Table Header 1&lt;/th&gt;
+            &lt;th&gt;Table Header 2&lt;/th&gt;
+            &lt;th&gt;Table Header 3&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table cell 1&lt;/td&gt;
+            &lt;td&gt;Table cell 2&lt;/td&gt;
+            &lt;td&gt;Table cell 3&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table footer cell 1&lt;/td&gt;
+            &lt;td&gt;Table footer cell 2&lt;/td&gt;
+            &lt;td&gt;Table footer cell 3&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+
+                    </code>
+                </pre>
+            </div>
+        <br>
+        <br>
+        <br>
 
         <h1 class="contentTitle">syntactically correct statements </h1>
         <br>
         <br>
         <div class="correctStatementsHtml">
-            <code>
-                <p>
-                o	Article (&lt;article>)<br>
-                    <br>
-                &lt;article><br>
-                    &lt;h2>05 March 2018&lt;/h2><br>
-                    &lt;p>Heavy rain.&lt;/p><br>
-                &lt;/article><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Body (&lt;body>)<br>
-                    <br>
-                &lt;body><br>
-                    &lt;h1> Test&lt;/h1><br>
-                &lt;/body><br>
-                    <br>
-                    <br>
-                    <br>
-                o	line break (&lt;br/>)<br>
-                    <br>
-                &lt;p><br>
-                    Testing &lt;br/> breaklines<br>
-                &lt;/p><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Headings (&lt;h1>, …)<br>
-                    <br>
-                &lt;h1> Biggest Header&lt;/h1><br>
-                &lt;h2> second biggest Header &lt;/h2><br>
-                &lt;h3> Third biggest Header&lt;/h3><br>
-                ...<br>
-                &lt;h6> Smallest Header&lt;/h6><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Section with meta-information (&lt;head>)<br>
-                    <br>
-                &lt;head><br>
-                    &lt;title> Test &lt;/title><br>
-                &lt;/head><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Top level element (&lt;html>)<br>
-                &lt;html><br>
-                    &lt;head><br>
-                        &lt;title> Test &lt;/title><br>
-                    &lt;/head><br>
-                    <br>
-                    &lt;body><br>
-                        &lt;h1> Test&lt;/h1><br>
-                    &lt;/body><br>
-                &lt;/html><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Image named Team.jpg (&lt;img src="Team.jpg">)<br>
-                &lt;body><br>
-                    &lt;img src="Team.jpg" alt="TeamFoto"><br>
-                &lt;/body><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Paragraph (&lt;p>)<br>
-                &lt;p>Testing paragraph &lt;/p><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Section (&lt;section>)<br>
-                &lt;section><br>
-                    &lt;h1>Heading&lt;/h1><br>
-                    &lt;p>Bunch of awesome content&lt;/p><br>
-                &lt;/section><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Label appearing in the title bar (&lt;title>)<br>
-                &lt;head><br>
-                &lt;title> Test &lt;/title><br>
-                &lt;/head><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Link to other pages (&lt;a>)<br>
-                    <br>
-                &lt;a href="https://www.w3schools.com/">Visit W3Schools.com!&lt;/a><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Comment<br>
-                &lt;!--Comment--><br>
-                    <br>
-                    <br>
-                    <br>
-                o	Head with title and meta elements<br>
-                    <br>
-                &lt;html><br>
-                    &lt;head><br>
-                        &lt;meta charset="UTF-8"><br>
-                        &lt;title> Test &lt;/title><br>
-                    &lt;/head><br>
-                    <br>
-                    &lt;body><br>
-                        &lt;h1> Test&lt;/h1><br>
-                    &lt;/body><br>
-                &lt;/html><br>
-                    <br>
-                </p>
+            <pre>
+                                <code>
+                o Article (&lt;article>)
+                &lt;article>
+                    &lt;h2>05 March 2018&lt;/h2>
+                    &lt;p>Heavy rain.&lt;/p>
+                &lt;/article>
+<hr>
+                o Body (&lt;body>)
+                &lt;body>
+                    &lt;h1> Test&lt;/h1>
+                &lt;/body>
+<hr>
+                o Line break (&lt;br/>)
+                &lt;p>
+                    Testing
+                    <br/>
+                    breaklines
+                &lt;/p>
+<hr>
+                o Headings (&lt;h1>, …)
+                &lt;h1> Biggest Header&lt;/h1>
+                &lt;h2> Second Biggest Header&lt;/h2>
+                &lt;h3> Third Biggest Header&lt;/h3>
+                ...
+                &lt;h6> Smallest Header&lt;/h6>
+<hr>
+                o Section with meta-information (&lt;head>)
+                &lt;head>
+                    &lt;title> Test &lt;/title>
+                &lt;/head>
+<hr>
+                o Top level element (&lt;html>)
+                &lt;html>
+                    &lt;head>
+                        &lt;title> Test &lt;/title>
+                    &lt;/head>
+                    &lt;body>
+                        &lt;h1> Test&lt;/h1>
+                    &lt;/body>
+                &lt;/html>
+<hr>
+                o Image named Team.jpg (&lt;img src="Team.jpg">)
+                &lt;body>
+                    &lt;img src="Team.jpg" alt="TeamFoto">
+                &lt;/body>
+<hr>
+                o Paragraph (&lt;p>)
+                &lt;p>Testing paragraph &lt;/p>
+<hr>
+                o Section (&lt;section>)
+                &lt;section>
+                    &lt;h1>Heading&lt;/h1>
+                    &lt;p>Bunch of awesome content&lt;/p>
+                &lt;/section>
+<hr>
+                o Label appearing in the title bar (&lt;title>)
+                &lt;head>
+                    &lt;title> Test &lt;/title>
+                &lt;/head>
+<hr>
+                o Link to other pages (&lt;a>)
+                &lt;a href="https://www.w3schools.com/">Visit W3Schools.com!&lt;/a>
+<hr>
+                o Comment
+                &lt;!--Comment-->
+<hr>
+                o Head with title and meta elements
+                &lt;html>
+                    &lt;head>
+                        &lt;meta charset="UTF-8">
+                        &lt;title> Test &lt;/title>
+                    &lt;/head>
+                    &lt;body>
+                        &lt;h1> Test&lt;/h1>
+                    &lt;/body>
+                &lt;/html>
 
-            </code>
+
+                </code>
+            </pre>
+
         </div>
     </div>
 </body>

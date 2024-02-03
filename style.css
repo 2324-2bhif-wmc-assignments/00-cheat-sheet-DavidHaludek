@@ -203,12 +203,26 @@
         font-size: 1.1rem;
     }
 
+    .listsHtml{
+        padding: 5%;
+        margin-inline: 15%;
+        background-color: #ab9e9e;
+        font-size: 1.1rem;
+    }
+
+    .tablesHtml{
+        padding: 5%;
+        margin-inline: 15%;
+        background-color: #ab9e9e;
+
+        font-size: 1.1rem;
+    }
+
 
     .correctStatementsHtml{
-        padding: 10%;
+
         background-color: #ab9e9e;
-        margin-inline: 15rem;
-        text-align: center;
+        margin-inline: 15%;
 
         font-size: 1.1rem;
     }

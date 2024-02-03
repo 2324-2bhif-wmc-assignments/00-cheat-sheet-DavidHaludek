@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="HeaderHomeButton">
+    <a href="index.html">HOME</a>
+</div>
+<br>
+<br>
+
+<h1>Containers</h1>
+<pre>
+    <code>
+    Usually you want to put your content to the middle and not have it up against the side.
+    You could handle that with CSS (e.g. with margins). In Bootstrap, you have a class container which handles
+    that for us. Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Bootstrap
+    requires elements which wrap the content of the webpage. Choose from a responsive, fixed-width
+    container (meaning its max-width changes at each breakpoint) or fluid-width (meaning it’s 100% wide all the time).
+
+    &lt;div class="container">
+        &lt;h2>Containers&lt;/h2>
+    &lt;/div>
+        </code>
+</pre>
+
+
+
+<h1>Highlight Text</h1>
+<pre>
+    <code>
+    To highlight text you can use the lead class. It makes a paragraph stand out.
+
+    &lt;p class="lead">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    &lt;/p>
+
+    Other tags which you can use to mark your text are mark (highlights the text), del (crosses out text) or u (underlines text).
+    &lt;p>
+            &lt;mark>Lorem ipsum dolor sit amet&lt;/mark>, consectetur adipisicing elit, sed do eiusmod tempor &lt;del>incididunt ut labore&lt;/del> et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation &lt;u>ullamco laboris nisi&lt;/u> ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    &lt;/p>
+    </code>
+</pre>
+
+
+<h1>Alignment & Transformation</h1>
+<pre>
+        <code>
+    To align respectively transform text you can use the following classes.
+
+    &lt;p class="text-start"&gt;Left aligned text. &lt;/p&gt;
+    &lt;p class="text-end"&gt;Left aligned text. &lt;/p&gt;
+    &lt;p class="text-center"&gt;Center aligned text.&lt;/p&gt;
+
+    There are also some transformation classes which you can add.
+
+    text-lowercase gets rid of all the capitals in a word.
+
+    text-uppercase capitalizes all the letters in a word.
+
+    text-capitalize capitalizes the first letter in a word.
+
+    &lt;p class="text-left text-lowercase"&gt;Left aligned lowercase text.&lt;/p&gt;
+    &lt;p class="text-center text-uppercase"&gt;Centered uppercase text.&lt;/p&gt;
+    &lt;p class="text-right text-capitalize"&gt;Right aligned capitalized text.&lt;/p&gt;
+
+    </code>
+</pre>
+
+
+<h1>Floating</h1>
+<pre>
+        <code>
+    The class float-end makes the element floating to the right.
+    The class float-start makes the element floating to the left. The class float-none
+    stops the floating.
+
+    &lt;div class="float-end"&gt;Div floated to right&lt;/div&gt;
+    &lt;div class="float-start"&gt;Div floated to left&lt;/div&gt;
+    &lt;div class="float-none"&gt;&lt;/div&gt;
+    &lt;p&gt;text after the div text &lt;/p&gt;
+
+    </code>
+</pre>
+
+
+
+<h1>Lists</h1>
+<pre>
+    <code>
+    To get rid of the padding and the bullets of a HTML list just use the class list-unstyled.
+
+    &lt;ul class="list-unstyled"&gt;
+      &lt;li&gt;Item One&lt;/li&gt;
+      &lt;li&gt;Item Two&lt;/li&gt;
+      &lt;li&gt;Item Three&lt;/li&gt;
+      &lt;li&gt;Item Four&lt;/li&gt;
+    &lt;/ul&gt;
+
+    If you want to have an inline list (e.g. for a menu) use the class list-inline.
+
+    &lt;ul class="list-inline"&gt;
+      &lt;li&gt;Item One&lt;/li&gt;
+      &lt;li&gt;Item Two&lt;/li&gt;
+      &lt;li&gt;Item Three&lt;/li&gt;
+      &lt;li&gt;Item Four&lt;/li&gt;
+    &lt;/ul&gt;
+
+    </code>
+</pre>
+
+
+<h1>Tables</h1>
+<pre>
+    <code>
+    There are several classes in Bootstrap to work with tables.
+
+    &lt;table class="table"&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Firstname&lt;/th&gt;
+            &lt;th&gt;Lastname&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Jill&lt;/td&gt;
+            &lt;td&gt;Smith&lt;/td&gt;
+            &lt;td&gt;50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Eve&lt;/td&gt;
+            &lt;td&gt;Jackson&lt;/td&gt;
+            &lt;td&gt;24&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;John&lt;/td&gt;
+            &lt;td&gt;Doe&lt;/td&gt;
+            &lt;td&gt;34&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Stephanie&lt;/td&gt;
+            &lt;td&gt;Landon&lt;/td&gt;
+            &lt;td&gt;47&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Mike&lt;/td&gt;
+            &lt;td&gt;Johnson&lt;/td&gt;
+            &lt;td&gt;19&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+    Reload the webpage to see the changes after adding one of the following classes:
+
+    - `table-striped`
+    - `table-striped-columns`
+    - `table-bordered`
+    - `table-hover`
+
+    </code>
+</pre>
+
+</body>
+</html>

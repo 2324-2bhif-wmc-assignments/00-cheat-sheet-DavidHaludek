@@ -39,6 +39,7 @@
 }
 .middleBlocksIndex li {
     list-style-type: none; /*nichts vor dem Text anzeigen*/
+    transition: 0.5s;
 }
 .middleBlocksIndex div{
     margin-bottom: 1.5rem; /*Abstand zur linker Seite und den Block*/
@@ -77,6 +78,11 @@
     display: flex;
     background-color: #ab9e9e;
     justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
     box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);
     -webkit-box-shadow: 0px 10px 25px 7px rgba(0,0,0,0.79);

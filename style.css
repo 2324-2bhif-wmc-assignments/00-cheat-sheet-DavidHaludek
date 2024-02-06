@@ -109,32 +109,33 @@
 
 .ContentBox{
 
-    & button {
-        background-color: #ab9e9e;
-    }
+    margin-inline: 20%;
 
-    background-color: white;
-    padding-inline: 20%;
 
     .worldWideWeb{
-        text-align: center;
+        padding: 10%;
+        background-color: #ab9e9e;
+
         font-size: 1.1rem;
     }
 
     .webServer{
-        text-align: center;
+        padding: 10%;
+        background-color: #ab9e9e;
 
         font-size: 1.1rem;
     }
 
     .webClient{
-        text-align: center;
+        padding: 10%;
+        background-color: #ab9e9e;
 
         font-size: 1.1rem;
     }
 
     .helloWorld{
-        text-align: center;
+        padding: 10%;
+        background-color: #ab9e9e;
 
         font-size: 1.1rem;
     }
